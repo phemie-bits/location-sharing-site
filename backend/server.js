@@ -55,7 +55,7 @@ app.use((error, req, res, next) => {
 mongoose
   .connect(DB_URI)
   .then(() => {
-    app.listen(5000);
+    app.listen(process.env.PORT ||3000);
   })
   .catch((err) => {
     console.log(err);
