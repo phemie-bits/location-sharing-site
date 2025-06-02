@@ -46,7 +46,7 @@ const UserPlaces = () => {
   };
   let content;
   if (isLoading) {
-    console.log("still loading");
+    //console.log("still loading");
     content = (
       <div className="center">
         <LoadingSpinner />
