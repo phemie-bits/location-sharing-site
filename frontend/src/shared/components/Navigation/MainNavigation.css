@@ -14,11 +14,13 @@
   display: block;
   width: 3rem;
   height: 2.5px;
-  background: white;
+  background: rgb(0, 0, 0);
 }
 
 .main-navigation__title {
   color: white;
+  position: relative;
+  height: 100%;
 }
 
 .main-navigation__title a {
@@ -33,6 +35,8 @@
 .main-navigation__drawer-nav {
   height: 100%;
 }
+
+
 
 @media (min-width: 768px) {
   .main-navigation__menu-btn {
